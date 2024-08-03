@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "5e94",
+      "cityName": "Contamina",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-08-03T15:43:22.336Z",
+      "notes": "",
+      "position": {
+        "lat": "41.244772343082076",
+        "lng": "-1.9335937500000002"
+      }
+    },
+    {
+      "id": "9b1c",
+      "cityName": "Haripur",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2024-08-03T15:43:51.476Z",
+      "notes": "",
+      "position": {
+        "lat": "33.99802726234877",
+        "lng": "73.04809570312501"
+      }
+    },
+    {
+      "id": "3e07",
+      "cityName": "Qarah Bagh",
+      "country": "Afghanistan",
+      "emoji": "🇦🇫",
+      "date": "2024-08-03T15:52:20.741Z",
+      "notes": "test\n",
+      "position": {
+        "lat": "33.15594830078649",
+        "lng": "67.98339843750001"
+      }
+    }
+  ]
+}
