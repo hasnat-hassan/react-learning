@@ -1,9 +1,9 @@
-import { updateSetting } from "../../services/apiSettings";
 import Form from "../../ui/Form";
 import FormRow from "../../ui/FormRow";
 import Input from "../../ui/Input";
 import Spinner from "../../ui/Spinner";
 import { useSettings } from "./useSettings";
+import { useUpdateSetting } from "./useUpdateSetting";
 
 function UpdateSettingsForm() {
   const {
@@ -11,11 +11,11 @@ function UpdateSettingsForm() {
     settings: {
       minBookingLength,
       maxBookingLength,
-      maxGuestPerBooking,
+      maxGuestsPerBooking,
       breakfastPrice,
     } = {},
   } = useSettings();
-  const { isUpdating, updateSetting } = useSettings();
+  const { isUpdating, updateSetting } = useUpdateSetting();
 
   if (isLoading) return <Spinner />;
 
@@ -52,17 +52,18 @@ function UpdateSettingsForm() {
         <Input
           type="number"
           id="max-guests"
+          defaultValue={maxGuestsPerBooking}
           disabled={isUpdating}
-          defaultValue={maxGuestPerBooking}
-          onBlur={(e) => handleUpdate(e, "maxGuestPerBooking")}
+          onBlur={(e) => handleUpdate(e, "maxGuestsPerBooking")}
         />
       </FormRow>
+
       <FormRow label="Breakfast price">
         <Input
           type="number"
           id="breakfast-price"
-          disabled={isUpdating}
           defaultValue={breakfastPrice}
+          disabled={isUpdating}
           onBlur={(e) => handleUpdate(e, "breakfastPrice")}
         />
       </FormRow>
