@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🎒 Smart Packing List App
+
+A simple React app where users can add items to a packing list, specify quantities, mark items as packed, and sort the list. Great for planning trips or keeping track of tasks!
+
+---
+
+## 🚀 Features
+
+- ➕ Add items with quantity (e.g. 1 toothbrush, 2 shirts)
+- ✅ Mark items as packed using checkboxes
+- 🔃 Sort items by input order, description, or packed status
+- 🗑️ Clear the entire list with one click
+- 📊 See real-time packing stats (e.g. how many packed out of total)
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript
+- CSS
+
+---
+
+## 📁 Folder Structure
+

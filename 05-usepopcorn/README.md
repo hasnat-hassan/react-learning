@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# 🍿 usePopcorn – Movie Watchlist App
+
+A React-based movie app where users can **search movies**, **add them to a watchlist**, and **rate what they've watched**. This project is designed to practice key React concepts like hooks, component structure, and real-world UI logic — wrapped in a fun popcorn theme!
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework:** React (Vite)
+- **Language:** JavaScript (ES6+)
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Styling:** CSS
+- **API:** OMDB API
+
+---
+
+## ✨ Features
+
+- 🔎 Search for movies using live input
+- 📥 Add movies to a "Watched" list
+- ⭐ Rate each watched movie
+- 📊 View movie stats and summaries
+- ✅ Responsive, user-friendly UI
+
+---
+
+## 🛠️ Project Structure
+

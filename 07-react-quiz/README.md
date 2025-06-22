@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🧠 React Quiz App
+
+An interactive and modern quiz application built with **React**, designed to test your knowledge in a fun and engaging way! This project includes **two versions**: one using **Context API** and another using **Prop Drilling** with `useReducer`, showcasing two common state management approaches in React.
+
+---
+
+## ✨ Features
+
+- ⚛️ **Built with React** – Functional components, hooks, and reusable logic
+- 🧩 **Two State Management Approaches**:
+  - **Context API**: Centralized, global state
+  - **Prop Drilling**: State passed via props using `useReducer`
+- 📝 **Multiple-Choice Quiz** with dynamic question loading
+- ⏱️ **Timer Functionality** for each question
+- 📈 **Scoring System** and **High Score Tracker**
+- 🔄 **Restart Quiz Anytime** & visual **progress bar**
+- 📱 **Responsive UI** with a clean and modern design
+- 🧪 **Error Handling** for failed data fetches
+- 🌐 **Local API Integration** (uses local JSON data or fake API)
+
+---
+
+## 🛠️ Tech Stack
+
+| Category          | Tool / Library                     |
+|------------------|-------------------------------------|
+| 🧑‍💻 Language       | JavaScript (ES6+)                   |
+| ⚙️ Framework      | React                              |
+| 🧠 State Mgmt     | Context API, `useReducer`, Prop Drilling |
+| 🎨 Styling        | Custom CSS                         |
+| 🔗 Data Fetching  | Fetch API (from local server)       |
+| 🧪 Other Tools    | React Strict Mode, Conditional Rendering |
+
+---
+
+## 📁 Project Structure
+
